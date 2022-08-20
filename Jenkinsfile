@@ -7,7 +7,7 @@ tools {
 stages{
 stage ('git checkout'){
 steps{
-git url: ''https://github.com/DeepakshiPurushotham/SRS_MicroService.git , branch: 'master'
+git url: 'https://github.com/DeepakshiPurushotham/SRS_MicroService.git' , branch: 'master'
 }
 }
 }
