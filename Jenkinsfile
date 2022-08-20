@@ -1,13 +1,13 @@
 pipeline {
 agent{
 labels 'nodename'}
-tools{
-terraform "terraformv2.0.1"
+tools {
+  terraform 'Terraform_v1.2.7'
 }
 stages{
 stage ('git checkout'){
 steps{
-git url: '' , branch: 'master'
+git url: ''https://github.com/DeepakshiPurushotham/SRS_MicroService.git , branch: 'master'
 }
 }
 }
