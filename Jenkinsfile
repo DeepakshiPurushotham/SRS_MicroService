@@ -1,6 +1,5 @@
 pipeline {
-agent{
-labels 'nodename'}
+agent any 
 tools {
   terraform 'Terraform_v1.2.7'
 }
