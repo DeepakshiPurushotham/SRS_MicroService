@@ -2,10 +2,10 @@ variable "aws_region" {
   default = "ap-south-1"
 }
 variable "access_key" {
-  default = "AKIA342XMEYNLH2UDN4D"
+  default = "AKIA342XMEYNFRVBMQQY "
 }
 variable "secret_key" {
-  default = "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"
+  default = "5LEmfNFPMupfdx8IrsHm0rpBsp8prOm70sarMNTS"
 }
 
 
